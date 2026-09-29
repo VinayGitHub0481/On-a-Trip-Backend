@@ -28,7 +28,9 @@ app = FastAPI(title="Travel Website API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",
+         "https://on-a-trip-holidays.vercel.app",
+        "https://onatripholidays.com",
+        "https://www.onatripholidays.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
