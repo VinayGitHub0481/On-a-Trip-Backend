@@ -152,6 +152,22 @@ def update_settings(
     return row
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # from sqlalchemy.orm import Session
 
 # from app.models.site_settings import SiteSettings

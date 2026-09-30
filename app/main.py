@@ -21,7 +21,7 @@ from app.routes import (
 )
 
 # create tables (use Alembic migrations in production instead)
-Base.metadata.create_all(bind=engine)
+#Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="Travel Website API")
 
